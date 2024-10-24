@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color:#76949F ;
+    
+}
+.container{
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 50vh;
+    width:40vh;
+    background-color: #A4D4B4;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,button,input{
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    height: 25px;
+}
+form input{
+    border-color: rgb(19, 24, 30);
+    font-size: 1rem;
+    height: 1rem;
+    padding: 0.3rem;
+}
